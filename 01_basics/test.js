@@ -19,3 +19,8 @@ jsUser.greetings = function() {
 
 // singleton object
 // const testObj = new Object()
+console.log(jsUser);
+
+const {hobbies : hb} = jsUser
+
+console.log(hb);
